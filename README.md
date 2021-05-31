@@ -1,9 +1,9 @@
 # monitorCovid
 
-Build an app to help people view the status of Covid cases around the world.
-
- The application has the following functionalities:
- -> Different roles, corresponding login for each: usual user, moderator, admin;
+Build an app to help people view the status of Covid cases around the world.                                                                                      
+                                                                                      
+ The application has the following functionalities:                                                                                      
+ -> Different roles, corresponding login for each: usual user, moderator, admin;                                                                                      
  -> All users can connect (login with username and password) / disconnect (logout) / retrieve the password;
  -> An automatic way (external API) from where you take the numbers;
  -> The distribution of cases is shown on a heat map;
