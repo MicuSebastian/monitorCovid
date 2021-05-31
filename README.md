@@ -16,4 +16,5 @@ Build an app to help people view the status of Covid cases around the world.
  User:                                                                                      
  -> Can view statistics for each country / region in a list & heatmap;                                                                                      
  -> Can search a country to see statistics;                                                                                      
- -> Can create a list of favorite destinations, add / delete countries from the favorites list.                                                                                     
+ -> Can create a list of favorite destinations, add / delete countries from the favorites list;                                                                                    
+ -> Can select a desired country and see what restrictions are imposed and what recommendations are designated by the respective government.
