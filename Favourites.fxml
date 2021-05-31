@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proiect.FavouritesController">
+   <children>
+      <Label layoutX="186.0" layoutY="30.0" text="Favourites list">
+         <font>
+            <Font name="Times New Roman" size="40.0" />
+         </font>
+      </Label>
+      <Pane layoutX="29.0" layoutY="100.0" prefHeight="62.0" prefWidth="542.0">
+         <children>
+            <Label fx:id="slot1" layoutX="14.0" layoutY="23.0" prefHeight="17.0" prefWidth="150.0" text="Slot 1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="476.0" layoutY="19.0" mnemonicParsing="false" onAction="#delete1" text="Delete" />
+         </children>
+      </Pane>
+      <Pane layoutX="29.0" layoutY="162.0" prefHeight="62.0" prefWidth="542.0">
+         <children>
+            <Label fx:id="slot2" layoutX="14.0" layoutY="23.0" prefHeight="17.0" prefWidth="150.0" text="Slot 2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="476.0" layoutY="19.0" mnemonicParsing="false" onAction="#delete2" text="Delete" />
+         </children>
+      </Pane>
+      <Pane layoutX="29.0" layoutY="224.0" prefHeight="62.0" prefWidth="542.0">
+         <children>
+            <Label fx:id="slot3" layoutX="14.0" layoutY="23.0" prefHeight="17.0" prefWidth="150.0" text="Slot 3">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="476.0" layoutY="19.0" mnemonicParsing="false" onAction="#delete3" text="Delete" />
+         </children>
+      </Pane>
+      <Button layoutX="268.0" layoutY="333.0" mnemonicParsing="false" onAction="#showList" text="Show list" />
+      <Button layoutX="14.0" layoutY="18.0" mnemonicParsing="false" onAction="#goBack" text="Back" />
+   </children>
+</AnchorPane>
